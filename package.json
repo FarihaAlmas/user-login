@@ -4,7 +4,6 @@
   "scripts": {
     "predeploy" : "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-native-scripts build",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",

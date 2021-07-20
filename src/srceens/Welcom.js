@@ -16,6 +16,7 @@ export default function Welcom({navigation}) {
    const logoutHandler = () => {
    Cookies.set('loggedIn', false)
    navigation.navigate('signin');
+   
 };
   return (
     <View style={styles.wlcmContainer}>
